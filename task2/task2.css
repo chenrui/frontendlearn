@@ -1,0 +1,47 @@
+.main_wrapper{
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    min-width: 600px;
+    overflow: auto; /*清除浮动, 背景框自适应*/
+}
+
+.team{
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    padding: 20px;
+}
+
+.team_img{
+    float: left;
+    margin-right: 20px;
+}
+
+.team_name{
+    width: 180px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    /*border: 1px solid #999;*/
+}
+
+.member{
+    background: #fff;
+    border: 1px solid #999;
+    float: right;
+    padding: 20px;
+}
+
+.members_img{
+    display: block;
+    border: 1px solid #999;
+
+}
+
+.introduce{
+    margin-left: 240px;
+    margin-right: 180px;
+    padding: 20px;
+    background: #fff;
+}

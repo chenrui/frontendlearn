@@ -1,0 +1,43 @@
+/* 水平居中 */
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 导航条 */
+#nav{
+    background-color: #3c3c3c;
+    height: 60px;
+    width: 100%;
+    position: fixed; /*固定位置*/
+    top: 0;
+    left: 0;
+}
+#nav img{
+    margin-left: 10px;
+}
+#nav div{
+    float: right;
+}
+#nav div li{
+    display: inline;
+    margin-right: 10px;
+}
+#nav div li a:hover{
+    color: coral;
+}
+
+.body{
+    background-color: #f7f7f7;
+    width: 100%;
+    width: 100%;
+}
+
+#content{
+    padding-top: 60px;
+}
+
+.page{
+    background-color: white;
+    margin: 20px 40px;
+}

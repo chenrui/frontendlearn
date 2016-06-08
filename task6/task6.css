@@ -1,0 +1,42 @@
+.flex-container {
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* 等距分布 */
+    align-items: center; /*垂直方向中间对齐*/
+}
+
+.flex-item {
+    border: 1px solid red;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.one {
+    height: 120px;
+}
+
+.two {
+    height: 100px;
+}
+
+.three {
+    height: 40px;
+}
+
+.four {
+    height: 200px;
+    border: 1px solid blue!important;
+}
+
+@media all and (max-width: 640px) {
+    .flex-container {
+        align-content:   space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .four {
+        order: -1;
+    }
+}

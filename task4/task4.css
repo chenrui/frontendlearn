@@ -91,3 +91,58 @@ a{
     color: white;
     margin-top: 32px;
 }
+
+#banner .start_btn {
+    width: 330px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(231, 79, 77);
+    text-align: center;
+    line-height: 63px;
+    margin-top: 66px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;   /*变形属性*/
+}
+#banner .start_btn:hover{
+    background-color: white;
+    color: rgb(231, 79, 77);;
+}
+
+#banner .down_options{
+    height: 250px;
+    width: 100%;
+    padding-top: 44px;
+    list-style: none;
+}
+
+#banner .down_options li{
+    height: 100%;
+    width: 25%;
+    font-size: 14px;
+    float: left;
+}
+#banner .down_options p{
+    margin-top: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 52px;
+    border-right: 1px solid #787476;
+}
+#banner .down_options .one{
+    background: url("img/round_icon.png") no-repeat top center;
+}
+
+#banner .down_options .two{
+    background: url("img/flag_icon.png") no-repeat top center;
+}
+
+#banner .down_options .three{
+    background: url("img/flower_icon.png") no-repeat top center;
+}
+
+#banner .down_options .four{
+    background: url("img/four_icon.png") no-repeat top center;
+}
